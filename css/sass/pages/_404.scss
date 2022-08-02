@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body#error {
+  overflow: hidden;
+  background-color: var(--bg-black-900);
+
+  .container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+
+    .contain-logo {
+      margin-top: 1.25rem;
+      padding-inline: 15px;
+      width: 100%;
+      box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.1);
+
+      .logo-link {
+        position: static;
+        display: flex;
+        align-items: center;
+        inset: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        justify-content: flex-start;
+      }
+    }
+
+    h1 {
+      font-size: clamp(9rem, 15vw, 20rem);
+      font-weight: 900;
+      background: url(./../../../imgs/404.jpg) no-repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: cover;
+      background-position: center
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: rgb(219, 219, 219);
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 0
+    }
+
+    .btn {
+      color: #fff;
+      font-size: 1.0625rem;
+      font-weight: 600;
+      position: relative;
+      width: fit-content;
+      padding: .3125rem .9375rem;
+      border: none;
+      background: var(--skin-color);
+      transition: 400ms ease-in-out all;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 1px;
+        width: 0;
+        background: var(--skin-color);
+        box-shadow:
+          -1px -1px 4px 0px #fff,
+          7px 2px 20px 0px #0003,
+          4px 1px 10px 0px #0002;
+        transition: 400ms ease-in-out all;
+      }
+
+      &:after {
+        right: inherit;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+        box-shadow:
+          1px 1px 4px 0px #fff,
+          7px 2px 20px 0px #0003,
+          4px 1px 10px 0px #0002;
+      }
+
+      &:hover {
+        color: var(--skin-color);
+        background: transparent;
+        box-shadow: none;
+
+        &:before,
+        &:after {
+          width: 100%;
+          transition: 800ms ease-in-out all;
+        }
+      }
+    }
+  }
+}
