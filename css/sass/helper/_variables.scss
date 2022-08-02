@@ -1,0 +1,53 @@
+/* =====================media query=====================*/
+$maxIpad: "(max-width: 1199px)";
+$maxSmall: "(max-width: 991px)";
+$maxMobile: "(max-width: 767px)";
+$maxMineMobile: "(max-width: 576px)";
+$minSmall: "(min-width: 768px)";
+$minMedium: "(min-width: 992px)";
+$minLarge: "(min-width: 1200px)";
+
+/*===================== colors=====================*/
+
+$color-1:#ec1839;
+$color-2:#fbce4c;
+$color-3:#2196f3;
+$color-4:#37b182;
+$color-5:#ff5400;
+
+
+:root {
+  /* -----skin color----- */
+  --skin-color: #ec1839;
+
+  /* -----bg color----- */
+  --bg-black-900: #f2f2fc;
+  --bg-black-100: #fdf9ff;
+  --bg-black-50: #e8dfec;
+
+  /* -----text color----- */
+  --text-black-900: #302e4d;
+  --text-black-700: #504370;
+
+  /* -----rgba color----- */
+  --rgb-white: 250, 250, 250;
+  --rgb-black: 0, 0, 0;
+
+  /* -------main transition------ */
+  --main-transition: 0.3s;
+}
+
+body.dark {
+  /* -----bg color----- */
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #39393939;
+
+  /* -----text color----- */
+  --text-black-900: #ffffff;
+  --text-black-700: #e9e9e9;
+
+  /* -----rgba color----- */
+  --rgb-white: 0, 0, 0;
+  --rgb-black: 250, 250, 250;
+}

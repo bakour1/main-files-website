@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+// .scroll {
+#scrollPath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0.4rem;
+  height: 100%;
+  background-color: var(--bg-black-50);
+}
+
+#progressBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0.4rem;
+  background-color: var(--skin-color);
+  z-index: 9999;
+  border-bottom-left-radius: .625rem;
+  border-bottom-right-radius: .625rem;
+}
+
+
+// }

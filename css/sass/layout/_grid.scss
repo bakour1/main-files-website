@@ -1,0 +1,49 @@
+/* Start Grid container */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  /* Small */
+  @media #{$minSmall} {
+    width: 750px;
+  }
+
+  /* Medium */
+  @media #{$minMedium} {
+    width: 970px;
+  }
+
+  /* Large */
+  @media #{$minLarge} {
+    width: 1170px;
+  }
+}
+
+/* End Grid container */
+.main-container {
+  @media #{$maxIpad} {
+    padding-left: 0;
+  }
+}
+
+.section {
+  background-color: var(--bg-black-900);
+  z-index: 0;
+  opacity: 1;
+  padding: 3rem 0 4.375rem;
+  min-height: min(700px, 100vh);
+  overflow-x: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.pd-20 {
+  padding-inline: 1.25rem;
+}

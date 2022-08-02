@@ -1,0 +1,64 @@
+ //  btn -border
+ .btn-Border {
+   color: var(--text-black-900);
+   font-size: .875rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   width: 6.25rem;
+   height: 2.25rem;
+   @include flex-center;
+   border: none;
+   cursor: pointer;
+   position: relative;
+   z-index: 1;
+
+   a {
+     color: inherit;
+     font-size: inherit;
+     text-transform: inherit;
+     font-weight: 500;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     height: 0;
+     z-index: 99;
+     white-space: nowrap;
+     @include flex-center;
+
+     &:focus {
+       color: var(--bg-black-900);
+       background-color: var(--skin-color);
+     }
+   }
+
+   svg,
+   rect {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     inset: 0;
+     fill: transparent;
+   }
+
+   rect {
+     stroke: transparent;
+     stroke-width: 4;
+     @include main-transition;
+
+     stroke-dasharray: 6.25rem 2.25rem;
+     stroke-dashoffset: 136;
+   }
+
+   &.active {
+     color: var(--bg-black-900);
+     background-color: var(--skin-color);
+     box-shadow: none !important;
+   }
+
+   &:hover rect {
+     stroke: var(--skin-color);
+     stroke-dasharray: 6.25rem 0;
+     stroke-dashoffset: 0;
+   }
+ }

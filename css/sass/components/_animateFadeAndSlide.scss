@@ -1,0 +1,60 @@
+#services [data-scroll='fadeIn'] {
+  transition: opacity 1s ease-in-out !important;
+}
+
+[data-scroll='fadeIn'] {
+  opacity: 0 !important;
+  transition: opacity 0.3s ease-in-out !important;
+
+  &.appear {
+    opacity: 1 !important;
+  }
+}
+
+[data-scroll='fadeInSlide_top'] {
+  opacity: 0 !important;
+  transform: translateY(-30%) !important;
+  transition: opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out !important;
+
+  &.appear {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+  }
+}
+
+[data-scroll='fadeInSlide_btm'] {
+  opacity: 0 !important;
+  transform: translateY(30%) !important;
+  transition: opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out !important;
+
+  &.appear {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+  }
+}
+
+[data-scroll='fadeISlide_left'] {
+  opacity: 0 !important;
+  transform: translateX(-50%) !important;
+  transition: opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out !important;
+
+  &.appear {
+    transform: translateX(0%) !important;
+    opacity: 1 !important;
+  }
+}
+
+[data-scroll='fadeISlide_right'] {
+  opacity: 0 !important;
+  transform: translateX(50%) !important;
+  transition: opacity 0.3s ease-in-out,
+    transform 0.3s ease-in-out !important;
+
+  &.appear {
+    transform: translateX(0%) !important;
+    opacity: 1 !important;
+  }
+}

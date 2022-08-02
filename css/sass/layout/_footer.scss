@@ -1,0 +1,223 @@
+footer,
+.contact {
+  min-height: unset !important;
+  padding-bottom: 0 !important;
+}
+
+footer {
+  min-height: unset !important;
+  padding-bottom: 0 !important;
+
+  .contain-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    @media #{$maxMobile} {
+      flex-direction: column;
+    }
+
+    .col {
+      flex: 1;
+      padding-bottom: 3rem;
+    }
+
+    .profile {
+      letter-spacing: -1px;
+      text-transform: capitalize;
+      display: flex;
+      flex-direction: column;
+
+      @media #{$maxMobile} {
+        align-items: center;
+      }
+
+      &>span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--skin-color);
+      }
+
+      .about {
+        font-size: .9375rem;
+        color: var(--text-black-700);
+        font-weight: 500;
+        position: relative;
+
+        &::after {
+          content: '';
+          width: 3.125rem;
+          height: 2px;
+          background-color: var(--skin-color);
+          position: absolute;
+          top: 100%;
+          left: 0;
+        }
+      }
+
+      .social {
+        margin-block: 1.875rem .625rem;
+
+        ul {
+          align-items: center;
+          gap: .625rem;
+
+          a {
+            color: var(--text-black-700);
+
+            &:hover {
+              color: var(--text-black-900);
+            }
+
+            span {
+              transition: 0.3s ease-in-out all;
+            }
+          }
+        }
+      }
+    }
+
+    .image-footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+      align-self: end;
+      padding-bottom: 0;
+
+      @media #{$maxMobile} {
+        align-self: center;
+
+        order: 2;
+      }
+
+      .radius {
+        background: var(--bg-black-100);
+        width: 54%;
+        aspect-ratio: 5/1;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: -1;
+
+        &::before,
+        &::after {
+          content: "";
+          width: 1000px;
+          height: 40px;
+          background-color: var(--bg-black-900);
+          position: absolute;
+          bottom: 0px;
+
+        }
+
+        &::before {
+          left: unset;
+          left: 90%;
+          border-top-left-radius: 17px 16px;
+          border-bottom-left-radius: 25px 23px;
+          box-shadow: inset 6px -13px 11px rgba(var(--rgb-black), 0.1);
+        }
+
+        &::after {
+          left: unset;
+          right: 90%;
+          border-top-right-radius: 17px 16px;
+          border-bottom-right-radius: 25px 23px;
+          box-shadow: inset -6px -13px 11px rgba(var(--rgb-black), 0.1);
+        }
+      }
+
+      .wrapper {
+        border: 1px solid rgba(var(--rgb-black), 0.1);
+        border-radius: 50%;
+        width: 65%;
+        aspect-ratio: 1;
+
+        .box-img {
+          border: 1rem solid var(--bg-black-100);
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+          box-shadow: 0px 0px 11px 3px rgba(var(--rgb-black), 0.2);
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .contact-methods {
+      display: flex;
+      flex-direction: column;
+      gap: .9375rem;
+
+      a {
+        font-size: 1.25rem;
+        width: 100%;
+        color: var(--text-black-700);
+        transition: color .3s ease-in-out;
+
+        i {
+          font-size: 1rem;
+          width: 2.5rem;
+          padding-inline: 1rem;
+          transition: margin .3s ease-in-out;
+        }
+
+        &:hover {
+          color: var(--skin-color);
+
+          i {
+            margin-right: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+
+  .foot {
+    background-color: var(--bg-black-100);
+    position: relative;
+    color: var(--text-black-900);
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 4.375rem;
+
+      @media #{$maxMobile} {
+        flex-direction: column;
+        padding-block: 2rem 1.3rem;
+        gap: 1.875rem;
+      }
+
+      .logo-link {
+        color: var(--skin-color);
+        inset: unset;
+        position: static;
+        inset: unset;
+        transform: unset;
+      }
+
+      .copy {
+        color: inherit;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: capitalize;
+
+        @media #{$maxMobile} {
+          order: 2;
+        }
+      }
+    }
+  }
+}

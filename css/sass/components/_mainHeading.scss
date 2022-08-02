@@ -1,0 +1,139 @@
+.section-border {
+  >.container {
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 0;
+      left: 20px;
+      border: 1px transparent double;
+      border-color: var(--skin-color) var(--skin-color) transparent transparent;
+      pointer-events: none;
+    }
+  }
+
+  .main-title {
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--skin-color);
+    width: 200px;
+    height: 60px;
+    padding-inline: 1.25rem;
+    margin-left: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s 0.5s width;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      border-bottom: 4px solid var(--skin-color);
+      border-left: 3px double var(--skin-color);
+    }
+
+    h2 {
+      background: var(--skin-color);
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      font-size: inherit;
+      font-weight: inherit;
+      display: flex;
+      align-items: center;
+      padding-inline: 1.25rem;
+      position: absolute;
+      inset: 0;
+      mask: url("../../../imgs/bg-title.png");
+      mask-size: 2300% 100%;
+    }
+
+
+    @media #{$maxMobile} {
+      padding: 10px 15px;
+      font-size: 20px;
+    }
+  }
+
+  .second-title {
+    @include flex-center;
+    flex-direction: column;
+    gap: 1.25rem;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 1px;
+      right: -3px;
+      top: 50%;
+      background-color: var(--skin-color);
+      z-index: -1;
+
+    }
+
+    h3 {
+      padding-inline: .9375rem;
+      color: var(--text-black-900);
+      font-weight: 600;
+      font-size: 1.5625rem;
+      text-transform: capitalize;
+      background-color: var(--bg-black-900);
+
+      &::first-letter {
+        color: var(--skin-color);
+        font-size: 40px;
+        font-weight: 700;
+      }
+    }
+
+    h4,
+    q {
+      font-size: .9375rem;
+      color: var(--text-black-700);
+      text-transform: capitalize;
+      font-weight: 600;
+      max-width: 70%;
+      text-align: center;
+    }
+  }
+
+  &.appear--run-border {
+    .container::after {
+      transition: 0.8s 0.4s width, .5s 1.15s height;
+      width: calc(100% - 30px);
+      height: 100%;
+    }
+
+    .main-title::after {
+      transition: 0.3s 0.6s height ease, 0.4s .9s width ease;
+      width: 100%;
+      height: 100%;
+    }
+
+    h2 {
+      animation: animHeading 0.8s steps(22) forwards;
+    }
+
+
+    .second-title::after {
+      transition: 0.4s 1.2s ease-in-out;
+      width: 100%;
+    }
+  }
+}

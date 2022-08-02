@@ -1,0 +1,148 @@
+/* -------------Start animation header--------------- */
+@keyframes animHeaderSticky {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes bgClip {
+  from {
+    clip-path: circle(00.0% at 50% 50%);
+  }
+
+  to {
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
+/* -------------End animation header--------------- */
+/* -------------Start animation main heading--------------- */
+@keyframes animHeading {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+/* -------------End animation main heading--------------- */
+/* ---Start turn conic bg dw-cv btn line---  */
+@keyframes turn-conic {
+  to {
+    transform: translate(-50%, -50%) rotate(-1turn);
+  }
+}
+
+/* ---End turn conic bg dw-cv btn line---  */
+/* ---Start animation skills bar---  */
+@keyframes rotateLi {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes upSix1 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(0, 50%, calc(var(--li-nth1) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix1 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth1) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+@keyframes upSix2 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(0, 50%, calc(var(--li-nth2) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix2 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth2) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+@keyframes upSix3 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(0, 50%, calc(var(--li-nth3) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix3 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth3) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+@keyframes upSix4 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(0, 50%, calc(var(--li-nth4) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix4 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth4) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+@keyframes borderSix {
+  0% {
+    transform: translate3d(0, 0, 160px) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ---End animation skills bar---  */

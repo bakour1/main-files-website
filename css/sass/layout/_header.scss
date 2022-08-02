@@ -1,0 +1,103 @@
+/* Start Header */
+.header {
+  background-color: var(--bg-black-100);
+  box-shadow: 0 0 .9375rem .1rem rgba($color: var(--rgb-black), $alpha: 0.2);
+  position: relative;
+
+  nav.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+    .contain-logo-clr {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav {
+      width: 100%;
+      display: flex;
+      gap: 1.3125rem;
+      height: 4rem;
+
+      @media #{$maxSmall} {
+        justify-content: space-between;
+        height: 3rem;
+      }
+
+      li:nth-child(4) {
+        margin-left: auto;
+
+        @media #{$maxSmall} {
+          margin-left: 0;
+        }
+      }
+
+      >li {
+        color: var(--text-black-900);
+        width: 6rem;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+
+        >a.link-section {
+          color: inherit;
+          text-transform: uppercase;
+          font-size: 1.1rem;
+          font-weight: 700;
+          @include position-center;
+          @include main-transition;
+
+          i {
+            font-weight: inherit;
+            color: inherit;
+            display: none;
+          }
+
+          span {
+            font-weight: inherit;
+            color: inherit;
+          }
+
+          @media #{$maxMobile} {
+            span {
+              display: none;
+            }
+
+            i {
+              display: block;
+              font-size: 1.7rem;
+            }
+          }
+        }
+
+
+        a.link-section.active {
+          color: var(--skin-color);
+          animation: bgClip 0.3s ease-in-out;
+        }
+        @media #{$minSmall} {
+          &:hover a.link-section{
+            color: var(--skin-color);
+            animation: bgClip 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: animHeaderSticky 1s both;
+  }
+}
+
+/* END Header */
