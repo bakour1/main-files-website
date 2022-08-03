@@ -40,7 +40,7 @@
       } );
       link.classList.add( "active" );
     } );
-    link.addEventListener( "touchstart", function ( e) {
+    link.addEventListener( "touchstart", function ( e ) {
       linkSections.forEach( link => {
         link.classList.remove( "active" );
       } );
@@ -350,7 +350,7 @@
         tools: [ "HTML", "CSS", " SCSS", "JS" ],
         src: "https://github.com/bakour1/sami-elzero-template3",
         web: "https://bakour1.github.io/sami-elzero-template3/",
-        album: [ '/imgs/web-1.png' ],
+        album: [ '/imgs/web-1.webp' ],
       },
       web_2: {
         title: 'leon',
@@ -361,7 +361,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template1-leon-sami",
         web: "https://bakour1.github.io/template1-leon-sami/",
-        album: [ '/imgs/web-2.png' ],
+        album: [ '/imgs/web-2.webp' ],
       },
       web_3: {
         title: 'leon',
@@ -372,7 +372,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template-one-html-and-css",
         web: "https://bakour1.github.io/template-one-html-and-css/",
-        album: [ '/imgs/web-3.png' ],
+        album: [ '/imgs/web-3.webp' ],
       },
       web_4: {
         title: 'kasper',
@@ -383,7 +383,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template-Kasper-sami",
         web: "https://bakour1.github.io/template-Kasper-sami/",
-        album: [ '/imgs/web-4.png' ],
+        album: [ '/imgs/web-4.webp' ],
       },
       web_5: {
         title: 'composition',
@@ -394,7 +394,7 @@
         tools: [ "HTML", "CSS", "sass" ],
         src: "https://github.com/bakour1/learn-sass-with-elzero",
         web: "https://bakour1.github.io/learn-sass-with-elzero/",
-        album: [ '/imgs/web-5.png' ],
+        album: [ '/imgs/web-5.webp' ],
       },
       web_6: {
         title: 'Restaurant',
@@ -405,7 +405,7 @@
         tools: [ "HTML", "CSS", "sass" ],
         src: "https://github.com/bakour1/training-with-sass",
         web: "https://bakour1.github.io/training-with-sass/",
-        album: [ '/imgs/web-6.png' ],
+        album: [ '/imgs/web-6.webp' ],
       },
       web_7: {
         title: 'ENYO',
@@ -416,7 +416,7 @@
         tools: [ "HTML", "CSS", "sass" ],
         src: "https://github.com/bakour1/Template-ENYO-sami",
         web: "https://bakour1.github.io/Template-ENYO-sami/",
-        album: [ '/imgs/web-7.png' ],
+        album: [ '/imgs/web-7.webp' ],
       },
     },
     webApp: {
@@ -429,7 +429,7 @@
         tools: [ "HTML", "CSS", "JS" ],
         src: "https://github.com/bakour1/challenge-messenger-sami",
         web: "https://bakour1.github.io/challenge-messenger-sami/",
-        album: [ '/imgs/web-8.png' ],
+        album: [ '/imgs/web-8.webp' ],
       },
     },
     challenges: {
@@ -442,7 +442,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/NWgKevX",
         web: "https://bakour1.github.io/Team-Skills-And-Stats/",
-        album: [ '/imgs/web-9.png' ],
+        album: [ '/imgs/web-9.webp' ],
       },
       web_10: {
         title: 'Splitted Frame',
@@ -453,7 +453,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqPGPE",
         web: "https://codepen.io/bakour/pen/KKqPGPE",
-        album: [ '/imgs/web-10.png' ],
+        album: [ '/imgs/web-10.webp' ],
       },
       web_11: {
         title: 'Gaming Profile Sections',
@@ -464,7 +464,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ExmBpLJ",
         web: "https://bakour1.github.io/Gaming-Profile-Sections/",
-        album: [ '/imgs/web-11.png' ],
+        album: [ '/imgs/web-11.webp' ],
       },
       web_12: {
         title: 'Pricing Plans',
@@ -475,7 +475,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/yLXaXjK",
         web: "https://bakour1.github.io/Pricing-Plans-With-Ribbons1/",
-        album: [ '/imgs/web-12.png' ],
+        album: [ '/imgs/web-12.webp' ],
       },
       web_13: {
         title: 'Circle Features',
@@ -486,7 +486,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwLeRp",
         web: "https://bakour1.github.io/CircleFeatures1/",
-        album: [ '/imgs/web-13.png' ],
+        album: [ '/imgs/web-13.webp' ],
       },
       web_14: {
         title: 'Blue Signup Form',
@@ -497,7 +497,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwxMdx",
         web: "https://bakour1.github.io/Blue-Signup-Form1/",
-        album: [ '/imgs/web-14.png' ],
+        album: [ '/imgs/web-14.webp' ],
       },
       web_15: {
         title: 'Bitcoin Dashboard',
@@ -508,7 +508,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/powgrXe",
         web: "https://bakour1.github.io/Bitcoin-Dashboard1/",
-        album: [ '/imgs/web-15.png' ],
+        album: [ '/imgs/web-15.webp' ],
       },
       web_16: {
         title: 'Email Template',
@@ -519,7 +519,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/mdwJRrL",
         web: "https://bakour1.github.io/Responsive-Email-Template/",
-        album: [ '/imgs/web-16.png' ],
+        album: [ '/imgs/web-16.webp' ],
       },
       web_17: {
         title: 'Company Team Grid',
@@ -530,7 +530,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://bakour1.github.io/CompanyTeam-With-Grid/",
         web: "https://bakour1.github.io/CompanyTeam-With-Grid/",
-        album: [ '/imgs/web-17.png' ],
+        album: [ '/imgs/web-17.webp' ],
       },
       web_18: {
         title: 'EL Animations',
@@ -541,7 +541,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/WNOvpmO",
         web: "https://bakour1.github.io/EL-Letters-Animations/",
-        album: [ '/imgs/web-18.png' ],
+        album: [ '/imgs/web-18.webp' ],
       },
       web_19: {
         title: 'Course Offer',
@@ -552,7 +552,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/BaZadBz",
         web: "https://bakour1.github.io/Course-Offer-Box/",
-        album: [ '/imgs/web-19.png' ],
+        album: [ '/imgs/web-19.webp' ],
       },
       web_20: {
         title: 'Advanced User card',
@@ -563,7 +563,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/eYRENRj",
         web: "https://bakour1.github.io/AdvancedUser-Card/",
-        album: [ '/imgs/web-20.png' ],
+        album: [ '/imgs/web-20.webp' ],
       },
       web_21: {
         title: 'Restaurant Orders List',
@@ -574,7 +574,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/bGRRpPK",
         web: "https://codepen.io/bakour/pen/bGRRpPK",
-        album: [ '/imgs/web-21.png' ],
+        album: [ '/imgs/web-21.webp' ],
       },
       web_22: {
         title: 'Joystick And Sidebar',
@@ -585,7 +585,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/RwgVqVM",
         web: "https://bakour1.github.io/JoystickAndSidebar/",
-        album: [ '/imgs/web-22.png' ],
+        album: [ '/imgs/web-22.webp' ],
       },
       web_23: {
         title: 'Circle Animated',
@@ -596,7 +596,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqWerY",
         web: "https://bakour1.github.io/CircleAnimated-Progress/",
-        album: [ '/imgs/web-23.png' ],
+        album: [ '/imgs/web-23.webp' ],
       },
       web_24: {
         title: 'Black Footer',
@@ -607,7 +607,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/RwgKOPw",
         web: "https://bakour1.github.io/Ultimate-Black-Footer/",
-        album: [ '/imgs/web-24.png' ],
+        album: [ '/imgs/web-24.webp' ],
       },
       web_25: {
         title: 'Jobs List',
@@ -618,7 +618,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/dyROzNY",
         web: "https://bakour1.github.io/Simple-JobsList-elzero/",
-        album: [ '/imgs/web-25.png' ],
+        album: [ '/imgs/web-25.webp' ],
       },
       web_26: {
         title: 'Circle And Boxes',
@@ -629,7 +629,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ExXgdBQ",
         web: "https://bakour1.github.io/Circle-And-Boxes/",
-        album: [ '/imgs/web-26.png' ],
+        album: [ '/imgs/web-26.webp' ],
       },
       web_27: {
         title: 'Dark Pricing',
@@ -640,7 +640,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqgXMw",
         web: "https://bakour1.github.io/Dark-Pricing-Table1/",
-        album: [ '/imgs/web-27.png' ],
+        album: [ '/imgs/web-27.webp' ],
       },
       web_28: {
         title: 'Real Estate',
@@ -651,7 +651,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqgXMw",
         web: "https://bakour1.github.io/Real-Estate-Cards1/",
-        album: [ '/imgs/web-28.png' ],
+        album: [ '/imgs/web-28.webp' ],
       },
       web_29: {
         title: 'Shapes',
@@ -662,7 +662,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/wveYKXX",
         web: "https://bakour1.github.io/Advanced-Card-With-Shapes1/",
-        album: [ '/imgs/web-29.png' ],
+        album: [ '/imgs/web-29.webp' ],
       },
       web_30: {
         title: 'Draw Retro-PC',
@@ -673,7 +673,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/gORQbmK",
         web: "https://bakour1.github.io/Draw-Retro-PC-sam/",
-        album: [ '/imgs/web-30.png' ],
+        album: [ '/imgs/web-30.webp' ],
       },
       web_31: {
         title: 'Boxed-Footer',
@@ -684,7 +684,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ZEyMMBW",
         web: "https://bakour1.github.io/Boxed-Footer1/",
-        album: [ '/imgs/web-31.png' ],
+        album: [ '/imgs/web-31.webp' ],
       },
       web_32: {
         title: 'Awesome Contact',
@@ -695,7 +695,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/rNwZNmN",
         web: "https://bakour1.github.io/AwesomeContact-Section1/",
-        album: [ '/imgs/web-32.png' ],
+        album: [ '/imgs/web-32.webp' ],
       },
       web_33: {
         title: 'Awesome Contact',
@@ -706,7 +706,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/vYZjJYq",
         web: "https://bakour1.github.io/CanvasSmiley-Facesam/",
-        album: [ '/imgs/web-33.png' ],
+        album: [ '/imgs/web-33.webp' ],
       },
       web_34: {
         title: 'Kids Education',
@@ -717,7 +717,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwqPjR",
         web: "https://bakour1.github.io/KidsEducation-Section-sam/",
-        album: [ '/imgs/web-34.png' ],
+        album: [ '/imgs/web-34.webp' ],
       },
       web_35: {
         title: 'Find RealEstate',
@@ -728,7 +728,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/mdwxpNw",
         web: "https://bakour1.github.io/Find-RealEstate-sam/",
-        album: [ '/imgs/web-35.png' ],
+        album: [ '/imgs/web-35.webp' ],
       },
       web_36: {
         title: 'Hosting Plans',
@@ -739,7 +739,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/rNwdVEj",
         web: "https://bakour1.github.io/HostingPlans-Table/",
-        album: [ '/imgs/web-36.png' ],
+        album: [ '/imgs/web-36.webp' ],
       },
       web_37: {
         title: 'Products card',
@@ -750,7 +750,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/NWjmLoq",
         web: "https://bakour1.github.io/ProductsWith-Separator/",
-        album: [ '/imgs/web-37.png' ],
+        album: [ '/imgs/web-37.webp' ],
       },
       web_38: {
         title: 'Colored Boxes',
@@ -761,7 +761,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/MWoQOOE",
         web: "https://bakour1.github.io/ColoredBoxes-sami/",
-        album: [ '/imgs/web-38.png' ],
+        album: [ '/imgs/web-38.webp' ],
       },
       web_39: {
         title: 'Pricing Plans Two',
@@ -772,7 +772,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/BaZJOOP",
         web: "https://bakour1.github.io/PricingPlansTwo-Colors/",
-        album: [ '/imgs/web-39.png' ],
+        album: [ '/imgs/web-39.webp' ],
       },
 
     }
