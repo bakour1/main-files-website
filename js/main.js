@@ -131,7 +131,6 @@
     parentColorsCircle.insertAdjacentHTML( 'beforeend', colorCircles );
   }
 
-
   localStorage.getItem( 'colorTheme' )
     && r.style.setProperty( '--skin-color', localStorage.getItem( 'colorTheme' ) );
 
@@ -305,9 +304,7 @@
   const
     containItem = document.querySelector( '.contain-items' ),
     filterContainer = document.querySelector( '.filter-item' ),
-    filterTypes = document.querySelectorAll( '.filter-item>li' ),
     popup = document.querySelector( '.popup' ),
-    loader = document.getElementById( 'loader' ),
     popupClose = document.querySelector( '.popup-close' ),
     switchPopup = document.querySelectorAll( '.switch-popup' ),
     popupLeft = document.querySelector( '.popup-left' ),
@@ -1060,6 +1057,10 @@
   } );
 } )();
 //  =======================  contact ======================= -
+( function () {
+  // https://dashboard.emailjs.com/admin/account
+  emailjs.init( 'RP2pB6OITQZT_buOu' );
+} )();
 ( () => {
   const inputs = document.querySelectorAll( ".input" ),
     btnSubmit = document.querySelector( "button" ),
@@ -1251,4 +1252,3 @@
     progress.style.height = `${ progressHeight }%`;
   } );
 } )();
-// =================test

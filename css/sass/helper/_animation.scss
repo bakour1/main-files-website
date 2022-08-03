@@ -36,6 +36,19 @@
 }
 
 /* -------------End animation main heading--------------- */
+/* -------------Start animation main landing--------------- */
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* -------------End animation main landing--------------- */
+
 /* ---Start turn conic bg dw-cv btn line---  */
 @keyframes turn-conic {
   to {
