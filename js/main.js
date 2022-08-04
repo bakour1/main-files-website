@@ -5,7 +5,7 @@
     if ( document.readyState == "interactive" || document.readyState == "complete" ) {
       setTimeout( () => {
         loader.classList.remove( 'active' );
-      }, 1500 );
+      }, 0 );
     } else {
       loader.classList.add( 'active' );
     }
@@ -13,20 +13,14 @@
 } )();
 // =================== Sticky Header ===================
 ( () => {
-  window.onload = function () {
-    window.onscroll = function () { scrollFunction(); };
-  };
-  window.onresize = function () { scrollFunction(); };
-  function scrollFunction () {
+  window.onload = function () { addPadding(); };
+  window.onresize = function () { addPadding(); };
+
+  function addPadding () {
     const header = document.getElementById( "header" );
     const landing = document.getElementById( "landing" );
-    if ( window.scrollTop > 150 || document.documentElement.scrollTop > 150 ) {
-      header.classList.add( "sticky" );
-      landing.style.paddingTop = header.getBoundingClientRect().height + "px";
-    } else {
-      header.classList.remove( "sticky" );
-      landing.style.paddingTop = 0 + "px";
-    }
+    let padding = header.offsetHeight;
+    landing.style.paddingTop = padding + "px";
   }
 } )();
 // ==================== active section and header on click ====================
