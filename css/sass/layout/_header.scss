@@ -1,13 +1,8 @@
 /* Start Header */
 .header {
   background-color: var(--bg-black-100);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 999;
   box-shadow: 0 0 .9375rem .1rem rgba($color: var(--rgb-black), $alpha: 0.2);
+  position: relative;
 
   nav.container-header {
     display: flex;
@@ -86,9 +81,8 @@
           color: var(--skin-color);
           animation: bgClip 0.3s ease-in-out;
         }
-
         @media #{$minSmall} {
-          &:hover a.link-section {
+          &:hover a.link-section{
             color: var(--skin-color);
             animation: bgClip 0.3s ease-in-out;
           }
@@ -97,13 +91,13 @@
     }
   }
 
-  // &.sticky {
-  //   position: fixed;
-  //   top: 0;
-  //   width: 100%;
-  //   z-index: 100;
-  //   animation: animHeaderSticky 1s both;
-  // }
+  &.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: animHeaderSticky 1s both;
+  }
 }
 
 /* END Header */
