@@ -29,80 +29,6 @@
     }
   }
 } )();
-// ==================== active section and header on click ====================
-( () => {
-  //   const linkSections = document.querySelectorAll( ".link-section" );
-  //   linkSections.forEach( link => {
-  //     link.addEventListener( "click", function ( e ) {
-  //       linkSections.forEach( link => {
-  //         link.classList.remove( "active" );
-  //       } );
-  //       this.classList.add( "active" );
-  //     } );
-  //   } );
-} )();
-
-// ==================== active section and header on scroll ====================
-( () => {
-  const header = document.querySelector( "header" );
-  const linkSections = document.querySelectorAll( ".link-section" );
-  const home = document.querySelector( '#home' );
-  const about = document.querySelector( '#about' );
-  const services = document.querySelector( '#services' );
-  const portfolio = document.querySelector( '#portfolio' );
-  const skills = document.querySelector( '#skills' );
-  const contact = document.querySelector( '#contact' );
-
-  class ActiveSection {
-    constructor ( section ) {
-      this.section = section;
-      this.posElementTop = this.section.getBoundingClientRect().top;
-      this.posElementBottom = this.section.getBoundingClientRect().bottom;
-      window.addEventListener( 'resize', () => {
-        this.posElementTop = this.section.getBoundingClientRect().top;
-        this.posElementBottom = this.section.getBoundingClientRect().bottom;
-      } );
-      this.activeSection = this.activeSection.bind( this );
-      this.activeLinkHeader = this.activeLinkHeader.bind( this );
-      this.init = this.init.bind( this );
-      this.init();
-    }
-    activeSection () {
-      if ( scrollY > this.posElementTop - window.innerHeight / 1.5
-        && scrollY < this.posElementBottom - window.innerHeight / 1.5 ) {
-        this.section.classList.add( 'appear--run-border' );
-        header.dataset.nav = this.section.id;
-
-      } else {
-        this.section.classList.remove( 'appear--run-border' );
-      }
-    }
-    activeLinkHeader () {
-      linkSections.forEach( link => {
-        if ( link.getAttribute( "href" ) === `#${ header.getAttribute( 'data-nav' ) }` ) {
-          linkSections.forEach( link => {
-            link.classList.remove( "active" );
-          } );
-          link.classList.add( "active" );
-        }
-      } );
-    }
-    init () {
-      this.posElementTop = this.section.getBoundingClientRect().top;
-      this.posElementBottom = this.section.getBoundingClientRect().bottom;
-      window.addEventListener( 'scroll', this.activeSection );
-      window.addEventListener( 'scroll', this.activeLinkHeader );
-    }
-  }
-
-  const activeHome = new ActiveSection( home );
-  const activeAbout = new ActiveSection( about );
-  const activeServices = new ActiveSection( services );
-  const activePortfolio = new ActiveSection( portfolio );
-  const activeSkills = new ActiveSection( skills );
-  const activeContact = new ActiveSection( contact );
-
-} )();
 
 // ===================== Switcher theme color=====================
 ( () => {
@@ -1049,7 +975,7 @@
 ( () => {
   const skills = document.querySelector( 'section#skills' );
   let posSkills = skills.getBoundingClientRect().top;
-
+  console.log( posSkills );
   window.addEventListener( 'scroll', () => {
     if ( window.scrollY > posSkills - window.innerHeight / 1.5 ) {
       skills.classList.add( 'open' );
@@ -1243,6 +1169,71 @@
     } );
   } );
 } )();
+
+// ==================== active section and header on scroll ====================
+( () => {
+  const header = document.querySelector( "header" );
+  const linkSections = document.querySelectorAll( ".link-section" );
+  const home = document.querySelector( '#home' );
+  const about = document.querySelector( '#about' );
+  const services = document.querySelector( '#services' );
+  const portfolio = document.querySelector( '#portfolio' );
+  const skills = document.querySelector( '#skills' );
+  const contact = document.querySelector( '#contact' );
+
+  class ActiveSection {
+    constructor ( section ) {
+      this.section = section;
+      this.posElementTop = this.section.getBoundingClientRect().top;
+      this.posElementBottom = this.section.getBoundingClientRect().bottom;
+      window.addEventListener( 'resize', () => {
+        this.posElementTop = this.section.getBoundingClientRect().top;
+        this.posElementBottom = this.section.getBoundingClientRect().bottom;
+      } );
+      this.activeSection = this.activeSection.bind( this );
+      this.activeLinkHeader = this.activeLinkHeader.bind( this );
+      this.init = this.init.bind( this );
+      this.init();
+    }
+    activeSection () {
+      console.log( scrollY );
+      if ( scrollY > this.posElementTop - window.innerHeight / 1.5
+        && scrollY < this.posElementBottom - window.innerHeight / 1.5 ) {
+        this.section.classList.add( 'appear--run-border' );
+        header.dataset.nav = this.section.id;
+
+      } else {
+        this.section.classList.remove( 'appear--run-border' );
+      }
+    }
+    activeLinkHeader () {
+      linkSections.forEach( link => {
+        if ( link.getAttribute( "href" ) === `#${ header.getAttribute( 'data-nav' ) }`
+          || link.getAttribute( "href" ) === "#landing" ) {
+          linkSections.forEach( link => {
+            link.classList.remove( "active" );
+          } );
+          link.classList.add( "active" );
+        }
+      } );
+    }
+    init () {
+      this.posElementTop = this.section.getBoundingClientRect().top;
+      this.posElementBottom = this.section.getBoundingClientRect().bottom;
+      window.addEventListener( 'scroll', this.activeSection );
+      window.addEventListener( 'scroll', this.activeLinkHeader );
+    }
+  }
+
+  const activeHome = new ActiveSection( home );
+  const activeAbout = new ActiveSection( about );
+  const activeServices = new ActiveSection( services );
+  const activePortfolio = new ActiveSection( portfolio );
+  const activeSkills = new ActiveSection( skills );
+  const activeContact = new ActiveSection( contact );
+
+} )();
+
 // =================== Scroll Bar ===================
 ( () => {
   let progress = document.getElementById( "progressBar" );
@@ -1252,3 +1243,4 @@
     progress.style.height = `${ progressHeight }%`;
   } );
 } )();
+
