@@ -146,6 +146,7 @@
   };
 
 } )();
+
 // =====================  Services  =====================
 ( () => {
   class ParallaxTiltEffect {
@@ -224,6 +225,7 @@
 
 
 } )();
+
 // =====================  Portfolio  =====================
 ( () => {
   // ------------------  filter items gallery ------------------
@@ -971,6 +973,7 @@
     document.body.classList.remove( 'stop-scrolling' );
   };
 } )();
+
 //  =======================  Skills ======================= -
 ( () => {
   const skills = document.querySelector( 'section#skills' );
@@ -982,6 +985,7 @@
     }
   } );
 } )();
+
 //  =======================  contact ======================= -
 ( function () {
   // https://dashboard.emailjs.com/admin/account
@@ -1102,6 +1106,7 @@
   }
 }
 )();
+
 // ======================== Animation Slideshow ========================
 ( () => {
   const sections = document.querySelectorAll( '.section' );
