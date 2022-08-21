@@ -162,6 +162,26 @@
   }
 }
 
+@keyframes upSix5 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(0, 50%, calc(var(--li-nth5) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix5 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth5) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
 @keyframes borderSix {
   0% {
     transform: translate3d(0, 0, 160px) rotateX(90deg) rotateY(200deg) rotate(180deg);

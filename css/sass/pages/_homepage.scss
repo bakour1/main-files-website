@@ -545,6 +545,7 @@
       width: 100%;
       bottom: 0;
       left: 0;
+      margin-top: 20px;
 
       >li:nth-child(2) {
         width: fit-content;
@@ -838,7 +839,8 @@
   --li-nth1: calc(var(--full-progress) / 100 * 80);
   --li-nth2: calc(var(--full-progress) / 100 * 90);
   --li-nth3: calc(var(--full-progress) / 100 * 80);
-  --li-nth4: calc(var(--full-progress) / 100 * 70);
+  --li-nth4: calc(var(--full-progress) / 100 * 85);
+  --li-nth5: calc(var(--full-progress) / 100 * 80);
   transition: 1s;
 
   &.section-border.appear--run-border .container::after {
@@ -1075,6 +1077,10 @@
         li:nth-of-type(4) .face.six {
           animation: 2s downSix4 ease-in forwards
         }
+
+        li:nth-of-type(5) .face.six {
+          animation: 2s downSix5 ease-in forwards
+        }
       }
     }
 
@@ -1107,10 +1113,10 @@
         }
 
         ul.statistics {
-          width: 50%;
+          width: 60%;
           height: 12%;
           transform: translate3d(0%, 6.875rem, 2.4375rem) rotate(-45deg);
-          gap: 20%;
+          gap: 15%;
           background: rgba(0, 0, 0, 0.1843137255);
           border-radius: .4375rem;
 
@@ -1119,7 +1125,7 @@
           }
 
           @media #{$maxMineMobile} {
-            transform: translate3d(50%, 8.875rem, 3.4375rem) rotate(2deg);
+            transform: translate3d(33%, 8.875rem, 3.4375rem) rotate(2deg);
           }
 
           li:nth-of-type(1) .face.one {
@@ -1218,6 +1224,31 @@
 
           li:nth-of-type(4) .face.six {
             animation: upSix4 1s cubic-bezier(0.42, 0, 0.21, 2.05) .5s forwards, rotateSix4 12s 1.7s infinite linear;
+          }
+
+          /* --------------------------------------------------- */
+          li:nth-of-type(5) .face.one {
+            height: var(--li-nth5);
+          }
+
+          li:nth-of-type(5) .face.two {
+            height: var(--li-nth5);
+          }
+
+          li:nth-of-type(5) .face.three {
+            width: var(--li-nth5);
+          }
+
+          li:nth-of-type(5) .face.four {
+            width: var(--li-nth5);
+          }
+
+          li:nth-of-type(5) .face.five {
+            transform: translate3d(0, 0, var(--li-nth5));
+          }
+
+          li:nth-of-type(5) .face.six {
+            animation: upSix5 1s cubic-bezier(0.42, 0, 0.21, 2.05) .5s forwards, rotateSix5 12s 1.7s infinite linear;
           }
 
           .face.six::after {
