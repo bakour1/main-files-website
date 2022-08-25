@@ -266,7 +266,7 @@
         tools: [ "HTML", "CSS", " SCSS", "JS" ],
         src: "https://github.com/bakour1/sami-elzero-template3",
         web: "https://bakour1.github.io/sami-elzero-template3/",
-        album: [ '/imgs/web-1.webp' ],
+        album: [ '/imgs/web_1.webp' ],
       },
       web_2: {
         title: 'leon',
@@ -277,7 +277,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template1-leon-sami",
         web: "https://bakour1.github.io/template1-leon-sami/",
-        album: [ '/imgs/web-2.webp' ],
+        album: [ '/imgs/web_2.webp' ],
       },
       web_3: {
         title: 'leon',
@@ -288,7 +288,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template-one-html-and-css",
         web: "https://bakour1.github.io/template-one-html-and-css/",
-        album: [ '/imgs/web-3.webp' ],
+        album: [ '/imgs/web_3.webp' ],
       },
       web_4: {
         title: 'kasper',
@@ -299,7 +299,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/template-Kasper-sami",
         web: "https://bakour1.github.io/template-Kasper-sami/",
-        album: [ '/imgs/web-4.webp' ],
+        album: [ '/imgs/web_4.webp' ],
       },
       web_5: {
         title: 'composition',
@@ -310,7 +310,7 @@
         tools: [ "HTML", "CSS", "sass" ],
         src: "https://github.com/bakour1/learn-sass-with-elzero",
         web: "https://bakour1.github.io/learn-sass-with-elzero/",
-        album: [ '/imgs/web-5.webp' ],
+        album: [ '/imgs/web_5.webp' ],
       },
       web_6: {
         title: 'Restaurant',
@@ -318,10 +318,10 @@
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
         date: "2021",
         client: "none",
-        tools: [ "HTML", "CSS", "sass" ],
+        tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/training-with-sass",
         web: "https://bakour1.github.io/training-with-sass/",
-        album: [ '/imgs/web-6.webp' ],
+        album: [ '/imgs/web_6.webp' ],
       },
       web_7: {
         title: 'ENYO',
@@ -329,14 +329,25 @@
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
         date: "2021",
         client: "none",
-        tools: [ "HTML", "CSS", "sass" ],
+        tools: [ "HTML", "CSS" ],
         src: "https://github.com/bakour1/Template-ENYO-sami",
         web: "https://bakour1.github.io/Template-ENYO-sami/",
-        album: [ '/imgs/web-7.webp' ],
+        album: [ '/imgs/web_7.webp' ],
+      },
+      web_8: {
+        title: 'Bondi',
+        category: 'website',
+        brief: "first website by bootstrap with elzero web school",
+        date: "2022",
+        client: "trining",
+        tools: [ "HTML", "CSS", "bootstrap" ],
+        src: "https://github.com/bakour1/bondi-bootstrap",
+        web: "https://bakour1.github.io/bondi-bootstrap/",
+        album: [ '/imgs/web_8.webp' ],
       },
     },
     webApp: {
-      web_8: {
+      webApp_1: {
         title: 'messenger',
         category: 'webApp',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -345,11 +356,11 @@
         tools: [ "HTML", "CSS", "JS" ],
         src: "https://github.com/bakour1/challenge-messenger-sami",
         web: "https://bakour1.github.io/challenge-messenger-sami/",
-        album: [ '/imgs/web-8.webp' ],
+        album: [ '/imgs/webApp_1.webp' ],
       },
     },
     challenges: {
-      web_9: {
+      challenge_1: {
         title: 'Team Skills',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -358,9 +369,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/NWgKevX",
         web: "https://bakour1.github.io/Team-Skills-And-Stats/",
-        album: [ '/imgs/web-9.webp' ],
+        album: [ '/imgs/challenge_1.webp' ],
       },
-      web_10: {
+      challenge_2: {
         title: 'Splitted Frame',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -369,9 +380,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqPGPE",
         web: "https://codepen.io/bakour/pen/KKqPGPE",
-        album: [ '/imgs/web-10.webp' ],
+        album: [ '/imgs/challenge_2.webp' ],
       },
-      web_11: {
+      challenge_3: {
         title: 'Gaming Profile Sections',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -380,9 +391,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ExmBpLJ",
         web: "https://bakour1.github.io/Gaming-Profile-Sections/",
-        album: [ '/imgs/web-11.webp' ],
+        album: [ '/imgs/challenge_3.webp' ],
       },
-      web_12: {
+      challenge_4: {
         title: 'Pricing Plans',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -391,9 +402,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/yLXaXjK",
         web: "https://bakour1.github.io/Pricing-Plans-With-Ribbons1/",
-        album: [ '/imgs/web-12.webp' ],
+        album: [ '/imgs/challenge_4.webp' ],
       },
-      web_13: {
+      challenge_5: {
         title: 'Circle Features',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -402,9 +413,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwLeRp",
         web: "https://bakour1.github.io/CircleFeatures1/",
-        album: [ '/imgs/web-13.webp' ],
+        album: [ '/imgs/challenge_5.webp' ],
       },
-      web_14: {
+      challenge_6: {
         title: 'Blue Signup Form',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -413,9 +424,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwxMdx",
         web: "https://bakour1.github.io/Blue-Signup-Form1/",
-        album: [ '/imgs/web-14.webp' ],
+        album: [ '/imgs/challenge_6.webp' ],
       },
-      web_15: {
+      challenge_7: {
         title: 'Bitcoin Dashboard',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -424,9 +435,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/powgrXe",
         web: "https://bakour1.github.io/Bitcoin-Dashboard1/",
-        album: [ '/imgs/web-15.webp' ],
+        album: [ '/imgs/challenge_7.webp' ],
       },
-      web_16: {
+      challenge_8: {
         title: 'Email Template',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -435,9 +446,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/mdwJRrL",
         web: "https://bakour1.github.io/Responsive-Email-Template/",
-        album: [ '/imgs/web-16.webp' ],
+        album: [ '/imgs/challenge_8.webp' ],
       },
-      web_17: {
+      challenge_9: {
         title: 'Company Team Grid',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -446,9 +457,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://bakour1.github.io/CompanyTeam-With-Grid/",
         web: "https://bakour1.github.io/CompanyTeam-With-Grid/",
-        album: [ '/imgs/web-17.webp' ],
+        album: [ '/imgs/challenge_9.webp' ],
       },
-      web_18: {
+      challenge_10: {
         title: 'EL Animations',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -457,9 +468,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/WNOvpmO",
         web: "https://bakour1.github.io/EL-Letters-Animations/",
-        album: [ '/imgs/web-18.webp' ],
+        album: [ '/imgs/challenge_10.webp' ],
       },
-      web_19: {
+      challenge_11: {
         title: 'Course Offer',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -468,9 +479,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/BaZadBz",
         web: "https://bakour1.github.io/Course-Offer-Box/",
-        album: [ '/imgs/web-19.webp' ],
+        album: [ '/imgs/challenge_11.webp' ],
       },
-      web_20: {
+      challenge_12: {
         title: 'Advanced User card',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -479,9 +490,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/eYRENRj",
         web: "https://bakour1.github.io/AdvancedUser-Card/",
-        album: [ '/imgs/web-20.webp' ],
+        album: [ '/imgs/challenge_12.webp' ],
       },
-      web_21: {
+      challenge_13: {
         title: 'Restaurant Orders List',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -490,9 +501,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/bGRRpPK",
         web: "https://codepen.io/bakour/pen/bGRRpPK",
-        album: [ '/imgs/web-21.webp' ],
+        album: [ '/imgs/challenge_13.webp' ],
       },
-      web_22: {
+      challenge_14: {
         title: 'Joystick And Sidebar',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -501,9 +512,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/RwgVqVM",
         web: "https://bakour1.github.io/JoystickAndSidebar/",
-        album: [ '/imgs/web-22.webp' ],
+        album: [ '/imgs/challenge_14.webp' ],
       },
-      web_23: {
+      challenge_15: {
         title: 'Circle Animated',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -512,9 +523,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqWerY",
         web: "https://bakour1.github.io/CircleAnimated-Progress/",
-        album: [ '/imgs/web-23.webp' ],
+        album: [ '/imgs/challenge_15.webp' ],
       },
-      web_24: {
+      challenge_16: {
         title: 'Black Footer',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -523,9 +534,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/RwgKOPw",
         web: "https://bakour1.github.io/Ultimate-Black-Footer/",
-        album: [ '/imgs/web-24.webp' ],
+        album: [ '/imgs/challenge_16.webp' ],
       },
-      web_25: {
+      challenge_17: {
         title: 'Jobs List',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -534,9 +545,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/dyROzNY",
         web: "https://bakour1.github.io/Simple-JobsList-elzero/",
-        album: [ '/imgs/web-25.webp' ],
+        album: [ '/imgs/challenge_17.webp' ],
       },
-      web_26: {
+      challenge_18: {
         title: 'Circle And Boxes',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -545,9 +556,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ExXgdBQ",
         web: "https://bakour1.github.io/Circle-And-Boxes/",
-        album: [ '/imgs/web-26.webp' ],
+        album: [ '/imgs/challenge_18.webp' ],
       },
-      web_27: {
+      challenge_19: {
         title: 'Dark Pricing',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -556,9 +567,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqgXMw",
         web: "https://bakour1.github.io/Dark-Pricing-Table1/",
-        album: [ '/imgs/web-27.webp' ],
+        album: [ '/imgs/challenge_19.webp' ],
       },
-      web_28: {
+      challenge_20: {
         title: 'Real Estate',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -567,9 +578,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/KKqgXMw",
         web: "https://bakour1.github.io/Real-Estate-Cards1/",
-        album: [ '/imgs/web-28.webp' ],
+        album: [ '/imgs/challenge_20.webp' ],
       },
-      web_29: {
+      challenge_21: {
         title: 'Shapes',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -578,9 +589,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/wveYKXX",
         web: "https://bakour1.github.io/Advanced-Card-With-Shapes1/",
-        album: [ '/imgs/web-29.webp' ],
+        album: [ '/imgs/challenge_21.webp' ],
       },
-      web_30: {
+      challenge_22: {
         title: 'Draw Retro-PC',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -589,9 +600,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/gORQbmK",
         web: "https://bakour1.github.io/Draw-Retro-PC-sam/",
-        album: [ '/imgs/web-30.webp' ],
+        album: [ '/imgs/challenge_22.webp' ],
       },
-      web_31: {
+      challenge_23: {
         title: 'Boxed-Footer',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -600,9 +611,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/ZEyMMBW",
         web: "https://bakour1.github.io/Boxed-Footer1/",
-        album: [ '/imgs/web-31.webp' ],
+        album: [ '/imgs/challenge_23.webp' ],
       },
-      web_32: {
+      challenge_24: {
         title: 'Awesome Contact',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -611,9 +622,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/rNwZNmN",
         web: "https://bakour1.github.io/AwesomeContact-Section1/",
-        album: [ '/imgs/web-32.webp' ],
+        album: [ '/imgs/challenge_24.webp' ],
       },
-      web_33: {
+      challenge_25: {
         title: 'Awesome Contact',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -622,9 +633,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/vYZjJYq",
         web: "https://bakour1.github.io/CanvasSmiley-Facesam/",
-        album: [ '/imgs/web-33.webp' ],
+        album: [ '/imgs/challenge_25.webp' ],
       },
-      web_34: {
+      challenge_26: {
         title: 'Kids Education',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -633,9 +644,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/oNwqPjR",
         web: "https://bakour1.github.io/KidsEducation-Section-sam/",
-        album: [ '/imgs/web-34.webp' ],
+        album: [ '/imgs/challenge_26.webp' ],
       },
-      web_35: {
+      challenge_27: {
         title: 'Find RealEstate',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -644,9 +655,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/mdwxpNw",
         web: "https://bakour1.github.io/Find-RealEstate-sam/",
-        album: [ '/imgs/web-35.webp' ],
+        album: [ '/imgs/challenge_27.webp' ],
       },
-      web_36: {
+      challenge_28: {
         title: 'Hosting Plans',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -655,9 +666,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/rNwdVEj",
         web: "https://bakour1.github.io/HostingPlans-Table/",
-        album: [ '/imgs/web-36.webp' ],
+        album: [ '/imgs/challenge_28.webp' ],
       },
-      web_37: {
+      challenge_29: {
         title: 'Products card',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -666,9 +677,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/NWjmLoq",
         web: "https://bakour1.github.io/ProductsWith-Separator/",
-        album: [ '/imgs/web-37.webp' ],
+        album: [ '/imgs/challenge_29.webp' ],
       },
-      web_38: {
+      challenge_30: {
         title: 'Colored Boxes',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -677,9 +688,9 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/MWoQOOE",
         web: "https://bakour1.github.io/ColoredBoxes-sami/",
-        album: [ '/imgs/web-38.webp' ],
+        album: [ '/imgs/challenge_30.webp' ],
       },
-      web_39: {
+      challenge_31: {
         title: 'Pricing Plans Two',
         category: 'challenges',
         brief: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quos.",
@@ -688,7 +699,7 @@
         tools: [ "HTML", "CSS" ],
         src: "https://codepen.io/bakour/pen/BaZJOOP",
         web: "https://bakour1.github.io/PricingPlansTwo-Colors/",
-        album: [ '/imgs/web-39.webp' ],
+        album: [ '/imgs/challenge_31.webp' ],
       },
 
     }
@@ -696,7 +707,6 @@
   // -------------------- convert  dataObj to dataArr;--------------------
   let all = { ...data[ 'website' ], ...data[ 'webApp' ], ...data[ 'challenges' ] };
   let dataArray = Object.values( all );
-
   // ------------------default mode print data-------------------------
   shuffleArray( dataArray );
   printData( dataArray );
@@ -978,10 +988,13 @@
 ( () => {
   const skills = document.querySelector( 'section#skills' );
   let posSkills = skills.getBoundingClientRect().top;
-  console.log( posSkills );
   window.addEventListener( 'scroll', () => {
-    if ( window.scrollY > posSkills - window.innerHeight / 1.5 ) {
-      skills.classList.add( 'open' );
+    if ( window.scrollY > posSkills - window.innerHeight / 3 ) {
+      setTimeout( () => {
+        skills.classList.add( 'open' );
+      }, 500 );
+    } else {
+      skills.classList.remove( 'open' );
     }
   } );
 } )();

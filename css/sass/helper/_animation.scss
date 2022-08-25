@@ -82,25 +82,29 @@
   }
 }
 
+/* ----------------------------------------------------------- */
+
 @keyframes upSix1 {
   from {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 
   to {
-    transform: translate3d(0, 50%, calc(var(--li-nth1) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(-30%, 50%, calc(var(--li-nth1) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 }
 
 @keyframes downSix1 {
   0% {
-    transform: translate3d(0, 0, calc(var(--li-nth1) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(0, 0, calc(var(--li-nth1) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 
   100% {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 }
+
+/* ----------------------------------------------------------- */
 
 @keyframes upSix2 {
   from {
@@ -108,19 +112,21 @@
   }
 
   to {
-    transform: translate3d(0, 50%, calc(var(--li-nth2) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(-30%, 50%, calc(var(--li-nth2) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 }
 
 @keyframes downSix2 {
   0% {
-    transform: translate3d(0, 0, calc(var(--li-nth2) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(0, 0, calc(var(--li-nth2) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 
   100% {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 }
+
+/* ----------------------------------------------------------- */
 
 @keyframes upSix3 {
   from {
@@ -128,19 +134,21 @@
   }
 
   to {
-    transform: translate3d(0, 50%, calc(var(--li-nth3) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(-30%, 50%, calc(var(--li-nth3) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 }
 
 @keyframes downSix3 {
   0% {
-    transform: translate3d(0, 0, calc(var(--li-nth3) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(0, 0, calc(var(--li-nth3) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 
   100% {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 }
+
+/* ----------------------------------------------------------- */
 
 @keyframes upSix4 {
   from {
@@ -148,13 +156,13 @@
   }
 
   to {
-    transform: translate3d(0, 50%, calc(var(--li-nth4) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(-30%, 50%, calc(var(--li-nth4) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 }
 
 @keyframes downSix4 {
   0% {
-    transform: translate3d(0, 0, calc(var(--li-nth4) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(0, 0, calc(var(--li-nth4) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 
   100% {
@@ -162,25 +170,49 @@
   }
 }
 
+/* ----------------------------------------------------------- */
 @keyframes upSix5 {
   from {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 
   to {
-    transform: translate3d(0, 50%, calc(var(--li-nth5) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(-30%, 50%, calc(var(--li-nth5) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 }
 
 @keyframes downSix5 {
   0% {
-    transform: translate3d(0, 0, calc(var(--li-nth5) + 3.125rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+    transform: translate3d(0, 0, calc(var(--li-nth5) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
   }
 
   100% {
     transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
   }
 }
+
+/* ----------------------------------------------------------- */
+@keyframes upSix6 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix6 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
 
 @keyframes borderSix {
   0% {
