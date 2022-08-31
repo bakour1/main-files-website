@@ -841,8 +841,8 @@
   --li-nth2: calc(var(--full-progress) / 100 * 90);
   --li-nth3: calc(var(--full-progress) / 100 * 80);
   --li-nth4: calc(var(--full-progress) / 100 * 85);
-  --li-nth5: calc(var(--full-progress) / 100 * 80);
-  --li-nth6: calc(var(--full-progress) / 100 * 75);
+  --li-nth5: calc(var(--full-progress) / 100 * 85);
+  --li-nth6: calc(var(--full-progress) / 100 * 80);
   transition: 1s;
 
   &.section-border.appear--run-border .container::after {

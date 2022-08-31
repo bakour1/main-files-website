@@ -345,6 +345,17 @@
         web: "https://bakour1.github.io/bondi-bootstrap/",
         album: [ '/imgs/web_8.webp' ],
       },
+      web_9: {
+        title: 'AppLab',
+        category: 'website',
+        brief: "second website by bootstrap for training",
+        date: "2022",
+        client: "trining",
+        tools: [ "HTML", "CSS", "bootstrap" ],
+        src: "https://github.com/bakour1/applab-bootsrap",
+        web: "https://bakour1.github.io/applab-bootsrap-sami/",
+        album: [ '/imgs/web_9.webp' ],
+      },
     },
     webApp: {
       webApp_1: {
@@ -990,11 +1001,7 @@
   let posSkills = skills.getBoundingClientRect().top;
   window.addEventListener( 'scroll', () => {
     if ( window.scrollY > posSkills - window.innerHeight / 3 ) {
-      setTimeout( () => {
-        skills.classList.add( 'open' );
-      }, 500 );
-    } else {
-      skills.classList.remove( 'open' );
+      skills.classList.add( 'open' );
     }
   } );
 } )();
