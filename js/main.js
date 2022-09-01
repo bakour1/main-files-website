@@ -1221,7 +1221,6 @@
       this.init();
     }
     activeSection () {
-      console.log( scrollY );
       if ( scrollY > this.posElementTop - window.innerHeight / 1.5
         && scrollY < this.posElementBottom - window.innerHeight / 1.5 ) {
         this.section.classList.add( 'appear--run-border' );
