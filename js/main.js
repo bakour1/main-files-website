@@ -1205,7 +1205,7 @@
   const portfolio = document.querySelector( '#portfolio' );
   const skills = document.querySelector( '#skills' );
   const contact = document.querySelector( '#contact' );
-
+  var screenMobile = window.matchMedia("(min-width: 768px)")
   class ActiveSection {
     constructor ( section ) {
       this.section = section;
@@ -1249,22 +1249,27 @@
     }
   }
 
-  const activeHome = new ActiveSection( home );
-  const activeAbout = new ActiveSection( about );
-  const activeServices = new ActiveSection( services );
-  const activePortfolio = new ActiveSection( portfolio );
-  const activeSkills = new ActiveSection( skills );
-  const activeContact = new ActiveSection( contact );
-
+  if (screenMobile.matches) {
+    const activeHome = new ActiveSection( home );
+    const activeAbout = new ActiveSection( about );
+    const activeServices = new ActiveSection( services );
+    const activePortfolio = new ActiveSection( portfolio );
+    const activeSkills = new ActiveSection( skills );
+    const activeContact = new ActiveSection( contact );
+  }
 } )();
 
 // =================== Scroll Bar ===================
 ( () => {
+
   let progress = document.getElementById( "progressBar" );
   let totalHeight = document.body.scrollHeight - window.innerHeight;
+  var screenMobile = window.matchMedia("(min-width: 768px)")
+if (screenMobile.matches) {
   window.addEventListener( "scroll", () => {
     let progressHeight = ( window.pageYOffset / totalHeight ) * 100;
     progress.style.height = `${ progressHeight }%`;
   } );
+}
 } )();
 
