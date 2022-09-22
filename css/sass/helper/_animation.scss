@@ -213,6 +213,27 @@
 }
 
 /* ----------------------------------------------------------- */
+@keyframes upSix7 {
+  from {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+
+  to {
+    transform: translate3d(-30%, 50%, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+}
+
+@keyframes downSix7 {
+  0% {
+    transform: translate3d(0, 0, calc(var(--li-nth6) + 3.6rem)) rotateX(90deg) rotateY(200deg) rotate(180deg);
+  }
+
+  100% {
+    transform: translate3d(0, 0, .625rem) rotateX(0) rotateY(-20deg) rotate(0);
+  }
+}
+
+/* ----------------------------------------------------------- */
 
 @keyframes borderSix {
   0% {

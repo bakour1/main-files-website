@@ -356,6 +356,17 @@
         web: "https://bakour1.github.io/applab-bootsrap-sami/",
         album: [ '/imgs/web_9.webp' ],
       },
+      web_10: {
+        title: 'manage',
+        category: 'website',
+        brief: "first website by tailwindcss for training",
+        date: "2022",
+        client: "trining",
+        tools: [ "HTML", "CSS", "tailwindcss" ],
+        src: "https://github.com/bakour1/manage-website-tailwindcss",
+        web: "https://bakour1.github.io/manage-website-tailwindcss/",
+        album: [ '/imgs/web_10.webp' ],
+      },
     },
     webApp: {
       webApp_1: {
@@ -368,6 +379,17 @@
         src: "https://github.com/bakour1/challenge-messenger-sami",
         web: "https://bakour1.github.io/challenge-messenger-sami/",
         album: [ '/imgs/webApp_1.webp' ],
+      },
+      webApp_2: {
+        title: 'quizapp',
+        category: 'webApp',
+        brief: "training app with typescript and bootstrap",
+        date: "2022",
+        client: "none",
+        tools: [ "HTML", "CSS", "Ts", "bootstrap" ],
+        src: "#",
+        web: "samibakkour.com/apps/quizapp",
+        album: [ '/imgs/webApp_2-1.webp', '/imgs/webApp_2-2.webp', '/imgs/webApp_2-3.webp' ],
       },
     },
     challenges: {
@@ -1205,7 +1227,7 @@
   const portfolio = document.querySelector( '#portfolio' );
   const skills = document.querySelector( '#skills' );
   const contact = document.querySelector( '#contact' );
-  var screenMobile = window.matchMedia("(min-width: 768px)")
+  var screenMobile = window.matchMedia( "(min-width: 768px)" );
   class ActiveSection {
     constructor ( section ) {
       this.section = section;
@@ -1249,7 +1271,7 @@
     }
   }
 
-  if (screenMobile.matches) {
+  if ( screenMobile.matches ) {
     const activeHome = new ActiveSection( home );
     const activeAbout = new ActiveSection( about );
     const activeServices = new ActiveSection( services );
@@ -1264,12 +1286,12 @@
 
   let progress = document.getElementById( "progressBar" );
   let totalHeight = document.body.scrollHeight - window.innerHeight;
-  var screenMobile = window.matchMedia("(min-width: 768px)")
-if (screenMobile.matches) {
-  window.addEventListener( "scroll", () => {
-    let progressHeight = ( window.pageYOffset / totalHeight ) * 100;
-    progress.style.height = `${ progressHeight }%`;
-  } );
-}
+  var screenMobile = window.matchMedia( "(min-width: 768px)" );
+  if ( screenMobile.matches ) {
+    window.addEventListener( "scroll", () => {
+      let progressHeight = ( window.pageYOffset / totalHeight ) * 100;
+      progress.style.height = `${ progressHeight }%`;
+    } );
+  }
 } )();
 

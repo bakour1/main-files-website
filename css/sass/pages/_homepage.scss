@@ -843,6 +843,7 @@
   --li-nth4: calc(var(--full-progress) / 100 * 85);
   --li-nth5: calc(var(--full-progress) / 100 * 85);
   --li-nth6: calc(var(--full-progress) / 100 * 80);
+  --li-nth7: calc(var(--full-progress) / 100 * 80);
   transition: 1s;
 
   &.section-border.appear--run-border .container::after {
@@ -1095,17 +1096,12 @@
 
   &.open {
     .parent {
-      margin-top: 8rem;
+      margin-top: 13rem;
       margin-bottom: -10rem;
 
       @media #{$maxMobile} {
-        margin-top: 3rem;
-        margin-bottom: -5rem;
-      }
-
-      @media #{$maxMineMobile} {
-        margin-top: 0;
-        margin-bottom: -6rem;
+        margin-top: 8rem;
+        margin-bottom: -9rem;
       }
 
       .wrapper-skills {
@@ -1119,7 +1115,8 @@
         }
 
         ul.statistics {
-          width: 70%;
+          padding-inline: 4rem;
+          width: 80%;
           height: 12%;
           transform: translate3d(0%, 6.875rem, 2.4375rem) rotate(-45deg);
           gap: 15%;
@@ -1128,9 +1125,6 @@
 
           @media #{$maxMobile} {
             transform: translate3d(20%, 6.875rem, 2.4375rem) rotate(-30deg);
-          }
-
-          @media #{$maxMineMobile} {
             width: 60%;
             transform: translate3d(33%, 8.875rem, 3.4375rem) rotate(2deg);
           }
@@ -1284,6 +1278,31 @@
           }
 
           /* ------------------------------------------------------- */
+          li:nth-of-type(7) .face.one {
+            height: var(--li-nth7);
+          }
+
+          li:nth-of-type(7) .face.two {
+            height: var(--li-nth7);
+          }
+
+          li:nth-of-type(7) .face.three {
+            width: var(--li-nth7);
+          }
+
+          li:nth-of-type(7) .face.four {
+            width: var(--li-nth7);
+          }
+
+          li:nth-of-type(7) .face.five {
+            transform: translate3d(0, 0, var(--li-nth7));
+          }
+
+          li:nth-of-type(7) .face.six {
+            animation: upSix7 1s cubic-bezier(0.42, 0, 0.21, 2.05) .5s forwards, rotateSix7 12s 1.7s infinite linear;
+          }
+
+          /* ------------------------------------------------------- */
           .face.six::after {
             transform: rotate(45deg) rotateY(-145deg);
           }
@@ -1291,7 +1310,7 @@
           .title {
             transform: translate3d(0px, 0px, .25rem) rotate(45deg) scale(1.5) rotateX(-90deg);
 
-            @media #{$maxMineMobile} {
+            @media #{$maxMobile} {
               transform: translate3d(0px, 0px, 0.25rem) rotate(90deg) scale(2, 1) rotateX(0deg);
             }
           }
