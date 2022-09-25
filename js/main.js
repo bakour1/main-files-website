@@ -391,6 +391,17 @@
         web: "samibakkour.com/apps/quizapp",
         album: [ '/imgs/webApp_2-1.webp', '/imgs/webApp_2-2.webp', '/imgs/webApp_2-3.webp' ],
       },
+      webApp_3: {
+        title: 'Twitter Clone',
+        category: 'webApp',
+        brief: "training app with tailwindcss",
+        date: "2022",
+        client: "none",
+        tools: [ "HTML", "Tailwindcss" ],
+        src: "https://github.com/bakour1/twitter-clone-sami",
+        web: "https://bakour1.github.io/twitter-clone-demo/",
+        album: [ '/imgs/webApp_3.webp' ],
+      },
     },
     challenges: {
       challenge_1: {
