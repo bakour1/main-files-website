@@ -402,6 +402,17 @@
         web: "https://bakour1.github.io/twitter-clone-demo/",
         album: [ '/imgs/webApp_3.webp' ],
       },
+      webApp_4: {
+        title: 'Memory game',
+        category: 'webApp',
+        brief: "training app with tailwindcss and typescript",
+        date: "2022",
+        client: "none",
+        tools: [ "HTML", "Tailwindcss", "typescript" ],
+        src: "https://github.com/bakour1",
+        web: "samibakkour.com/apps/memory-game",
+        album: [ '/imgs/webApp_4-1.webp', '/imgs/webApp_4-2.webp' ],
+      },
     },
     challenges: {
       challenge_1: {
